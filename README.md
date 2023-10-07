@@ -217,7 +217,37 @@ if __name__ == "__main__":
 
 ### 8. Para el punto anterior incluir las funciones en un archivo independiente e importarlas para su uso.
 
+```python
+from Funciones Punto 7 import Promedio
+from Funciones Punto 7 import PromedioMultiplicativo
+from Funciones Punto 7 import OrdenAscendente
+from Funciones Punto 7 import OrdenDescendente
+from Funciones Punto 7 import Mediana
+from Funciones Punto 7 import Potencia
+from Funciones Punto 7 import RaizCubica
+if __name__ == "__main__":
+  a = float(input("Ingrese un número real: "))
+  b = float(input("Ingrese un número real: "))
+  c = float(input("Ingrese un número real: "))
+  d = float(input("Ingrese un número real: "))
+  e = float(input("Ingrese un número real: "))
+  PromedioFinal = Promedio(a, b, c, d, e)
+  PMFinal = PromedioMultiplicativo(a, b, c, d, e)
+  OrdenA = OrdenAscendente(a, b, c, d, e)
+  OrdenB = OrdenDescendente(a, b, c, d, e)
+  MedianaFinal = Mediana(a, b, c, d, e)
+  PotenciaFinal = Potencia(a, b, c, d, e)
+  RaizCubicaFinal = RaizCubica(a, b, c, d, e)
 
+  print()
+  print("El promedio es " +str(PromedioFinal))
+  print("El promedio multiplicatvo es " +str(PMFinal))
+  print("Números ordenados en forma ascendente: " +str(OrdenA))
+  print("Números ordenados en forma descendente: " +str(OrdenB))
+  print("La mediana es el número " +str(MedianaFinal))
+  print("La potencia del mayor número elevado al menor número es: " +str(PotenciaFinal))
+  print("La raíz cúbica del menor número es: " +str(RaizCubicaFinal))
+```
 
 ### 9. Consultar qué es y cómo funciona pip en python.
 
